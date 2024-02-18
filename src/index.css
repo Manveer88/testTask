@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.tablePackingList{
+background-color: rgb(87, 219, 219);
+}
+@media print {
+  body {-webkit-print-color-adjust: exact;}
+  }

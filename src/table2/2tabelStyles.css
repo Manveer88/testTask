@@ -1,0 +1,102 @@
+
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  td {
+    height: 55px;
+    max-width: 125px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  .header {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #686363;
+  }
+  div span {
+    /* background-color: burlywood; */
+  }
+  div h2 {
+    font-size: 24px;
+    width: 538px;
+    text-align: center;
+    letter-spacing: 7px;
+    color: aliceblue;
+  }
+  
+  div h4 {
+    background-color: black;
+    color: #f2f2f2;
+    padding: 5px;
+  }
+  tfoot tr td {
+    text-align: right;
+    height: 4px;
+    font-weight: 800;
+  }
+  
+  .job-row td {
+    height: 40px;
+    /* Adjust the height as needed */
+  }
+  .header {
+    display: flex;
+  }
+  .inputValue {
+    /* display: flex; */
+    align-items: center;
+    font-size: 20px;
+    /* background-color: #686363; */
+  }
+  .inputValue span {
+       /* background-color: #686363; */
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  
+  .inputValue input {
+    /* width: 70px; */
+    height: 20px;
+    font-size: 20px;
+    border: none;
+    /* background-color: #686363; */
+  }
+  .inputValueQuantity input {
+    /* width: 25px; */
+    height: 20px;
+    font-size: 20px;
+    border: none;
+    /* background-color: #686363; */
+  }
+  
+ .packingList {
+
+  display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #686363;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+ }
