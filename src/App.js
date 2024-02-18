@@ -4,7 +4,7 @@ import Tabel from "./table/index.js";
 import { PersistentStateProvider } from "react-persistent-state";
 import Tabel2 from "./table2/index.js";
 const App = () => {
-
+console.log("w")
   return (
     <>
       {/* <PersistentStateProvider
